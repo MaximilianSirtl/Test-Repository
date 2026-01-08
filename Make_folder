@@ -1,0 +1,3 @@
+from pathlib import Path
+
+Path("my_folder").mkdir(parents=True, exist_ok=True)
